@@ -138,6 +138,25 @@ a { color: inherit; }
 .install-card li { margin: 10px 0; }
 .install-badge { display: inline-flex; align-items: center; border-radius: 999px; padding: 7px 13px; background: #edf4ff; color: var(--primary-dark); font-size: .8rem; font-weight: 950; }
 .install-badge.android { background: #eef9ef; color: #27632c; }
+
+.support-box {
+  margin: 0 auto 24px;
+  max-width: 920px;
+  padding: 18px 22px;
+  border-radius: 18px;
+  background: #fff7e5;
+  border: 1px solid #efd8a4;
+  color: #49350b;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(19, 38, 70, 0.08);
+}
+.support-box a {
+  color: var(--primary-dark);
+  font-weight: 900;
+  text-decoration: none;
+}
+.support-box a:hover { text-decoration: underline; }
+
 .download-table { overflow: hidden; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); }
 .row { display: grid; grid-template-columns: 1.2fr 1fr .65fr; gap: 18px; align-items: center; padding: 18px 22px; border-bottom: 1px solid var(--line); }
 .row:last-child { border-bottom: 0; }
