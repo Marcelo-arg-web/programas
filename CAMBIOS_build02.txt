@@ -1,0 +1,6 @@
+CAMBIOS build02 - Página Programas
+
+- Planificador VMC actualizado a PlanificadorVMC_build2039PC.zip.
+- En la tarjeta y en la tabla de descargas ahora los enlaces apuntan al archivo correcto build2039.
+- Se eliminó el archivo anterior PlanificadorVMC_build2036PC.zip de la carpeta descargas.
+- Se mantiene el resto de programas y enlaces sin cambios.

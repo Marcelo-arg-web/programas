@@ -1,0 +1,23 @@
+COMANDOS PARA SUBIR LA WEB ACTUALIZADA
+
+1) Entrar a la carpeta del sitio:
+   cd pagina_programas
+
+2) Verificar que está el archivo nuevo y que NO está el viejo:
+   dir descargas\PlanificadorVMC_build2039PC.zip
+   dir descargas\PlanificadorVMC_build2036PC.zip
+
+3) Si usás GitHub Pages:
+   git status
+   git add index.html version.json README.md CAMBIOS_build02.txt COMANDOS_SUBIR_HOSTING_build02.txt descargas/PlanificadorVMC_build2039PC.zip
+   git rm --ignore-unmatch descargas/PlanificadorVMC_build2036PC.zip
+   git commit -m "Actualizar Planificador VMC a build2039"
+   git push
+
+4) Si usás Firebase Hosting:
+   firebase login
+   firebase use --add
+   firebase deploy --only hosting
+
+Después de subir, probar en la web que Planificador VMC descargue:
+   descargas/PlanificadorVMC_build2039PC.zip
